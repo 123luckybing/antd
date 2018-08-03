@@ -6,7 +6,10 @@ import Button from './Component/Button';
 import Icon from './Component/Icon';
 import Cascader from './Component/Cascader';
 import Breadcrumb from './Component/Breadcrumb';
+import Switch from './Component/Switch';
 import Rate from './Component/Rate';
+import Spin from './Component/Spin';
+import InputNumber from './Component/InputNumber';
 class App extends Component {
   render() {
     return (
@@ -19,6 +22,9 @@ class App extends Component {
             <Route path='/Cascader' component={Cascader}/>
             <Route path='/Breadcrumb' component={Breadcrumb}/>
             <Route path='/Rate' component={Rate}/>
+            <Route path='/Switch' component={Switch}/>
+            <Route path='/Spin' component={Spin}/>
+            <Route path='/InputNumber' component={InputNumber}/>
           </div>
         </Router>
       </div>
