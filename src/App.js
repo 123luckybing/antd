@@ -39,6 +39,20 @@ import Avatar from './Component/Avatar';
 import Calendar from './Component/Calendar';
 import Card from './Component/Card';
 import BackTop from './Component/BackTop';
+import Anchor from './Component/Anchor';
+import Modal from './Component/Modal';
+import Drawer from './Component/Drawer';
+import Alert from './Component/Alert';
+import Tree from './Component/Tree';
+import Timeline from './Component/Timeline';
+import Tag from './Component/Tag';
+import Tabs from './Component/Tabs';
+import Table from './Component/Table';
+import Tooltip from './Component/Tooltip';
+import Popover from './Component/Popover';
+import List from './Component/List';
+import Collapse from './Component/Collapse';
+import Carousel from './Component/Carousel';
 class App extends Component {
   render() {
     return (
@@ -83,6 +97,20 @@ class App extends Component {
             <Route path='/Calendar' component={Calendar}/>
             <Route path='/Card' component={Card}/>
             <Route path='/BackTop' component={BackTop}/>
+            <Route path='/Anchor' component={Anchor}/>
+            <Route path='/Modal' component={Modal}/>
+            <Route path='/Drawer' component={Drawer}/>
+            <Route path='/Alert' component={Alert}/>
+            <Route path='/Tree' component={Tree}/>
+            <Route path='/Timeline' component={Timeline}/>
+            <Route path='/Tag' component={Tag}/>
+            <Route path='/Tabs' component={Tabs}/>
+            <Route path='/Table' component={Table}/>
+            <Route path='/Tooltip' component={Tooltip}/>
+            <Route path='/Popover' component={Popover}/>
+            <Route path='/List' component={List}/>
+            <Route path='/Collapse' component={Collapse}/>
+            <Route path='/Carousel' component={Carousel}/>
           </div>
         </Router>
       </div>

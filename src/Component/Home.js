@@ -48,6 +48,20 @@ class Home extends Component {
         <li><Link to='/Calendar'>Calendar日历</Link></li>
         <li><Link to='/Card'>Card卡片</Link></li>
         <li><Link to='/BackTop'>BackTop回到顶部</Link></li>
+        <li><Link to='/Anchor'>Anchor锚点</Link></li>
+        <li><Link to='/Modal'>Modal弹出框</Link></li>
+        <li><Link to='/Drawer'>Drawer左右滑出</Link></li>
+        <li><Link to='/Alert'>Alert警告提示</Link></li>
+        <li><Link to='/Tree'>Tree树形组件</Link></li>
+        <li><Link to='/Timeline'>Timeline时间轴</Link></li>
+        <li><Link to='/Tag'>Tag标签</Link></li>
+        <li><Link to='/Tabs'>Tabs标签页</Link></li>
+        <li><Link to='/Table'>Table表格</Link></li>
+        <li><Link to='/Tooltip'>Tooltip文字提示</Link></li>
+        <li><Link to='/Popover'>Popover气泡卡片</Link></li>
+        <li><Link to='/List'>List列表</Link></li>
+        <li><Link to='/Collapse'>Collapse折叠面板</Link></li>
+        <li><Link to='/Carousel'>Carousel走马灯</Link></li>
       </div>
     );
   }
