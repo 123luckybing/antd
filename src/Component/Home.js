@@ -61,7 +61,7 @@ class Home extends Component {
         <li><Link to='/Popover'>Popover气泡卡片</Link></li>
         <li><Link to='/List'>List列表</Link></li>
         <li><Link to='/Collapse'>Collapse折叠面板</Link></li>
-        <li><Link to='/Carousel'>Carousel走马灯</Link></li>
+        <li><Link to='/Carousel'>Carousel轮播图</Link></li>
       </div>
     );
   }

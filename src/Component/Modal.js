@@ -46,6 +46,7 @@ class ModalCom extends Component {
           <div>职业:前端工程师</div>
           {/* 里面的内容是弹出层的内容 */}
         </Modal>
+        <p>二：点击确定后异步关闭对话框，例如提交表单</p>
       </div>
     );
   }
