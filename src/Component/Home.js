@@ -62,6 +62,7 @@ class Home extends Component {
         <li><Link to='/List'>List列表</Link></li>
         <li><Link to='/Collapse'>Collapse折叠面板</Link></li>
         <li><Link to='/Carousel'>Carousel轮播图</Link></li>
+        <li><Link to='/DataPicker'>DataPicker日期选择框</Link></li>
       </div>
     );
   }

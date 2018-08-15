@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Breadcrumb } from 'antd';
-class BreadcrumbMenu extends Component {
+import { Menu } from 'antd';
+class MenuCom extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class BreadcrumbMenu extends Component {
     );
   }
 }
-export default BreadcrumbMenu;
+export default MenuCom;

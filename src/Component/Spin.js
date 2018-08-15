@@ -1,7 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Spin,Icon } from 'antd';
+import { Spin,Icon,Alert,Switch } from 'antd';
 class BreadcrumbMenu extends Component {
+  constructor() {
+    super();
+    this.changeLoading = this.changeLoading.bind(this);
+    this.state = {
+      loading: false,
+    }
+  }
+  changeLoading(value) {
+    this.setState({
+      loading: value,
+    });
+  }
   render() {
     return (
       <div>
@@ -25,8 +37,20 @@ class BreadcrumbMenu extends Component {
         >
           <Spin />
         </div>
-        <h3>(四)自定义使用自定义指示符 indicator属性</h3>
+        <h3>(四)自定义使用自定义指示符Icon  indicator属性</h3>
         <Spin indicator={<Icon type="loading" />}/>
+        <h4>(五)：卡片加载中 Spin里面套Alert</h4>
+        <Spin 
+          spinning={this.state.loading} // spining为true的时候出现,spining为false时消失
+        >
+          <Alert
+            message='Alert message title'
+            description='Alert message content'
+          />
+        </Spin>
+        Loading State: <Switch onChange={this.changeLoading}/>
+        <h4>(六)：自定义文案tip</h4>
+        <Spin tip='loading'/>
       </div>
     );
   }

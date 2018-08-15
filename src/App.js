@@ -53,6 +53,7 @@ import Popover from './Component/Popover';
 import List from './Component/List';
 import Collapse from './Component/Collapse';
 import Carousel from './Component/Carousel';
+import DataPicker from './Component/DataPicker';
 class App extends Component {
   render() {
     return (
@@ -111,6 +112,7 @@ class App extends Component {
             <Route path='/List' component={List}/>
             <Route path='/Collapse' component={Collapse}/>
             <Route path='/Carousel' component={Carousel}/>
+            <Route path='/DataPicker' component={DataPicker}/>
           </div>
         </Router>
       </div>
